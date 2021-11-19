@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>repl.it</title>
+	<link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+	<h1>Move your character in any direction</h1>
+  
+	<div id="navigation-btns">
+		<div class="single btn-container">
+			<button id="forward" onclick="goForward()">Forward</button>
+    </div>  
+    <div class="double btn-container">
+      <button id="left" onclick="goLeft()">Left</button>
+      <button id="right"onclick="goRight()">Right</button>
+    </div>
+    <div class="single btn-container">
+      <button id="Backward" onclick="goBackward()">Backward</button>
+    </div>
+  </div>
+
+  <div id="print-stats" class="btn-container">
+    <button onclick="printTotalSteps()">Total Steps</button>
+    <br><br>
+    <button onclick="printAllSteps()">Show all steps</button>
+    <!-- UNCOMMENT THE CODE BELOW IF ATTEMPTING BONUS
+    <br><br>
+    <button onclick="printAtStart()">Are we back to where we started?</button> -->
+    <br><br>
+    <button onclick="stepsTracker.newGame()">Start a new game</button>
+  </div>
+
+  <script src="script.js"></script>
+
+  </body>
+</html>

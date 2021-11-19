@@ -1,0 +1,25 @@
+h1{
+  text-align: center;
+}
+
+button{
+  padding: 0.6em;
+}
+
+.btn-container{
+  border: 0px solid blue;
+  text-align: center;
+  padding:1.5em 0em;
+}
+
+.double button{
+  margin-left: 3em;
+  margin-right: 3em;
+}
+
+#print-stats, #navigation-btns{
+  margin: 1em auto;
+  width: 500px;
+  border-radius: 25px;
+  box-shadow: 10px 5px 25px #dde;
+}
