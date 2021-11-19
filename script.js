@@ -46,7 +46,7 @@ function goBackward(){
   stepsTracker.backward++;
 }
 
-function goLeft(){
+var goLeft = () => {
   //Prints to the console which direction the character steps in
   console.log(NAME + " moves one step to the left.");
   
